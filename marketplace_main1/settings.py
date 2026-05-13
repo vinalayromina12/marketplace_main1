@@ -55,6 +55,9 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'marketplace_main1.urls'
 
+AUTH_USER_MODEL = 'store.User'
+
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
